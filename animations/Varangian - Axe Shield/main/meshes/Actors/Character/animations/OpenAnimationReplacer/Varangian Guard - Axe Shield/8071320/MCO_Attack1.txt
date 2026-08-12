@@ -1,0 +1,59 @@
+# numOriginalFrames: 51
+# duration: 1.666667
+# numAnnotationTracks: 99
+# numAnnotations: 55
+0.060000 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.060000 PIE.@SGVI|MCO_NextAttack|2
+0.060000 PIE.@SGVI|MCO_NextPowerAttack|2
+0.066667 CastOKStart
+0.100000 preHitFrame
+0.300000 FootScuffLeft
+0.433333 weaponSwing
+0.500000 HitFrame
+0.733333 MCO_WinOpen
+0.733333 MCO_PowerWinOpen
+1.066667 MCO_WinClose
+1.066667 MCO_PowerWinClose
+1.066667 MCO_Recovery
+1.200000 FootScuffRight
+1.433333 FootScuffLeft
+1.650000 AttackStop
+0.000000 animmotion 0.0 0.0 0
+0.016667 animmotion 0.0 0.03 0
+0.033333 animmotion 0.0 0.11 0
+0.050000 animmotion 0.0 0.26 0
+0.066667 animmotion 0.0 0.47 0
+0.083333 animmotion 0.0 0.77 0
+0.100000 animmotion 0.0 1.14 0
+0.116667 animmotion 0.0 1.59 0
+0.133333 animmotion 0.0 2.09 0
+0.150000 animmotion 0.0 2.65 0
+0.166667 animmotion 0.0 3.24 0
+0.183333 animmotion 0.0 3.86 0
+0.200000 animmotion 0.0 4.49 0
+0.216667 animmotion 0.0 5.13 0
+0.233333 animmotion 0.0 5.75 0
+0.250000 animmotion 0.0 6.35 0
+0.266667 animmotion 0.0 6.93 0
+0.283333 animmotion 0.0 7.45 0
+0.300000 animmotion 0.0 7.92 0
+0.316667 animmotion 0.0 8.33 0
+0.333333 animmotion 0.0 8.83 0
+0.350000 animmotion 0.0 10.06 0
+0.366667 animmotion 0.0 11.84 0
+0.383333 animmotion 0.0 13.74 0
+0.400000 animmotion 0.0 15.33 0
+0.416667 animmotion 1.23 16.72 0
+0.433333 animmotion 2.6 19.55 0
+0.450000 animmotion 3.65 23.57 0
+0.466667 animmotion 4.67 27.93 0
+0.483333 animmotion 5.58 31.87 0
+0.500000 animmotion 6.23 34.88 0
+0.516667 animmotion 6.64 37.34 0
+0.533333 animmotion 6.79 39.36 0
+0.550000 animmotion 6.67 40.96 0
+0.566667 animmotion 6.46 42.16 0
+0.583333 animmotion 6.31 42.97 0
+0.600000 animmotion 6.22 43.48 0
+0.616667 animmotion 6.19 43.73 0
+0.633333 animmotion 6.18 43.8 0

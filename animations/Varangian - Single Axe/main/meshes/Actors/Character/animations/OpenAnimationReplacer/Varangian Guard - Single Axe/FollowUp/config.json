@@ -1,0 +1,117 @@
+{
+    "name": "FollowUp",
+    "priority": 807131600,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "For Honor in Skyrim.esp",
+                        "formID": "801"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "form": {
+                            "pluginName": "For Honor in Skyrim.esp",
+                            "formID": "869"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 5.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 3.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 4.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 3.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Type": {
+                "value": 11.0
+            },
+            "Left hand": true
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "4251A"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42518"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42519"
+                    }
+                }
+            ]
+        }
+    ]
+}

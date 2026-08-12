@@ -1,0 +1,97 @@
+{
+    "name": "Parry",
+    "priority": 807102800,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 1.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 11.0
+            },
+            "Left hand": true
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "form": {
+                            "pluginName": "For Honor in Skyrim.esp",
+                            "formID": "87E"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "form": {
+                            "pluginName": "For Honor in Skyrim.esp",
+                            "formID": "87E"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 5.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "4251A"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42518"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42519"
+                    }
+                }
+            ]
+        }
+    ]
+}

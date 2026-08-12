@@ -1,0 +1,106 @@
+{
+    "name": "Layer",
+    "priority": 807601500,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "For Honor in Skyrim.esp",
+                "formID": "80E"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 10.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypePike"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeQuarterstaff"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeScythe"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeapTypeHalberd"
+                    },
+                    "Left hand": false
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "4251A"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42518"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42519"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+[   
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "KnockBackStop"
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "KnockDownStop"
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "KnockUpStop"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SoundPlay.WPNUnarmedSwing"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SoundPlay.WPNSwingFx"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SoundPlay.GroundDustFX2"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SoundPlay._SKII_TimedBlock"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "ParryStart"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "ParryStart2"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "ParryStop"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "FH_Dodge1"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "PIE"   
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "FakeHit"   
+    }
+]

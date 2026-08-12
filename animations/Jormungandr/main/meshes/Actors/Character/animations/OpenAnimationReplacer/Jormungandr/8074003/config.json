@@ -1,0 +1,148 @@
+{
+    "name": "807601300",
+    "priority": 807601300,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "Keytrace.esp",
+                "formID": "803"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 10.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypePike"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeQuarterstaff"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeScythe"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeapTypeHalberd"
+                    },
+                    "Left hand": false
+                }
+            ]
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 20.0
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Value A": {
+                        "form": {
+                            "pluginName": "TrueDirectionalMovement.esp",
+                            "formID": "807"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "TrueDirectionalMovement.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "4251A"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42518"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42519"
+                    }
+                }
+            ]
+        }
+    ]
+}

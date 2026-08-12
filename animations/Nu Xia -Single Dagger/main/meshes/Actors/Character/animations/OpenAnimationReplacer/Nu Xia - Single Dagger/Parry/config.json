@@ -1,0 +1,184 @@
+{
+    "name": "Parry",
+    "priority": 807121600,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 2.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 0.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 12.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 13.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 14.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 15.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 16.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 17.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 11.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeSpear"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeJavelin"
+                    },
+                    "Left hand": false
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "form": {
+                            "pluginName": "For Honor in Skyrim.esp",
+                            "formID": "87E"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "form": {
+                            "pluginName": "For Honor in Skyrim.esp",
+                            "formID": "87E"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 5.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "4251A"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42518"
+                    }
+                },
+                {
+                    "condition": "HasPerk",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Perk": {
+                        "pluginName": "Stances - Dynamic Weapon Movesets SE.esp",
+                        "formID": "42519"
+                    }
+                }
+            ]
+        }
+    ]
+}
