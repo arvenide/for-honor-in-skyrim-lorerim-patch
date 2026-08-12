@@ -1,3 +1,6 @@
+The mod is hosted on NexusMods:
+https://www.nexusmods.com/skyrimspecialedition/mods/153800
+
 WHAT'S CHANGED?
 
 Global Changes:
