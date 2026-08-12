@@ -1,0 +1,33 @@
+# numOriginalFrames: 51
+# duration: 1.666667
+# numAnnotationTracks: 99
+# numAnnotations: 42
+0.000000 PIE.$SlowTimeF_on
+0.000000 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.000000 PIE.@SGVI|MCO_NextAttack|5
+0.000000 PIE.@SGVI|MCO_NextPowerAttack|5
+0.066667 CastOKStart
+0.100000 preHitFrame
+0.400000 ParryStop
+0.400000 PIE.$SlowTimeF_off
+0.433333 FootScuffLeft
+0.466667 SoundPlay.WPNSwing2Hand
+0.466667 Collision_AttackStart
+0.566667 Collision_Add.Node(SHIELD)|Scale(3.0)|NoTrail
+0.566667 PIE.$ShieldPush
+0.566667 PIE.$Shield_Hit
+0.566667 PIE.@CAMSHAKE|0.5|0.3
+0.566667 HitFrame
+0.600000 Collision_AttackEnd
+0.683333 MCO_WinOpen
+0.683333 MCO_PowerWinOpen
+1.033333 MCO_WinClose
+1.033333 MCO_PowerWinClose
+1.033333 MCO_Recovery
+1.133333 FootScuffRight
+1.433333 FootScuffLeft
+1.650000 AttackStop
+0.000000 animmotion 0.0 0.0 0
+0.400000 animmotion 0.0 0.0 0
+0.416667 animmotion 0.0 0.91 0
+0.633333 animmotion 0.0 100 0

@@ -1,0 +1,68 @@
+# numOriginalFrames: 43
+# duration: 1.400000
+# numAnnotationTracks: 99
+# numAnnotations: 64
+0.060000 FootScuffLeft
+0.060000 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.060000 PIE.@SGVI|MCO_NextAttack|9
+0.060000 PIE.@SGVI|MCO_NextPowerAttack|6
+0.000000 FH_Dodge
+0.066667 CastOKStart
+0.100000 preHitFrame
+0.350000 FootScuffRight
+0.533333 FootScuffLeft
+0.550000 FakeHit
+0.700000 MCO_WinOpen
+0.700000 MCO_PowerWinOpen
+1.133333 MCO_WinClose
+1.133333 MCO_PowerWinClose
+1.133333 MCO_Recovery
+0.000000 animmotion 0.0 0.0 0
+0.016667 animmotion -0.7 0.0 0
+0.033333 animmotion -2.66 0.0 0
+0.050000 animmotion -5.64 0.0 0
+0.066667 animmotion -9.43 0.0 0
+0.083333 animmotion -13.81 0.0 0
+0.100000 animmotion -18.54 0.0 0
+0.116667 animmotion -23.42 0.0 0
+0.133333 animmotion -28.21 0.0 0
+0.150000 animmotion -32.69 0.0 0
+0.166667 animmotion -36.77 0.0 0
+0.183333 animmotion -40.92 0.0 0
+0.200000 animmotion -45.71 0.0 0
+0.216667 animmotion -51.59 0.0 0
+0.233333 animmotion -58.3 0.0 0
+0.250000 animmotion -65.46 0.0 0
+0.266667 animmotion -72.65 0.0 0
+0.283333 animmotion -79.59 0.0 0
+0.300000 animmotion -86.43 0.0 0
+0.316667 animmotion -93.42 0.0 0
+0.333333 animmotion -100.82 0.0 0
+0.350000 animmotion -108.89 0.0 0
+0.366667 animmotion -117.9 0.0 0
+0.383333 animmotion -128.09 0.0 0
+0.400000 animmotion -139.73 0.0 0
+0.416667 animmotion -152.85 0.15 0
+0.433333 animmotion -166.58 0.59 0
+0.450000 animmotion -179.84 1.29 0
+0.466667 animmotion -191.52 2.22 0
+0.483333 animmotion -201.54 3.36 0
+0.500000 animmotion -210.56 4.69 0
+0.516667 animmotion -218.64 6.17 0
+0.533333 animmotion -225.81 7.78 0
+0.550000 animmotion -232.14 9.49 0
+0.566667 animmotion -237.68 11.28 0
+0.583333 animmotion -242.49 13.13 0
+0.600000 animmotion -246.61 15.0 0
+0.616667 animmotion -250.09 16.87 0
+0.633333 animmotion -253.0 18.71 0
+0.650000 animmotion -255.38 20.51 0
+0.666667 animmotion -257.29 22.22 0
+0.683333 animmotion -258.77 23.83 0
+0.700000 animmotion -259.89 25.31 0
+0.716667 animmotion -260.69 26.64 0
+0.733333 animmotion -261.22 27.78 0
+0.750000 animmotion -261.55 28.71 0
+0.766667 animmotion -261.71 29.41 0
+0.783333 animmotion -261.77 29.85 0
+0.800000 animmotion -261.78 30.0 0

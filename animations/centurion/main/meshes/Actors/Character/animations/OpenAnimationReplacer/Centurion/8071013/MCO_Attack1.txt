@@ -1,0 +1,35 @@
+0.06 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.06 PIE.@SGVI|MCO_NextAttack|10
+0.06 PIE.@SGVI|MCO_NextPowerAttack|7
+0.0 ParryStart2
+0.06666666666666667 CastOKStart
+0.1 preHitFrame
+0.5 FootScuffLeft
+0.5 ParryStop
+0.53 PIE.$Parry_Stagger
+0.56 weaponSwing
+0.5666666666666667 HitFrame
+0.8666666666666667 MCO_WinOpen
+0.8666666666666667 MCO_PowerWinOpen
+1.2 MCO_WinClose
+1.2 MCO_PowerWinClose
+1.2 MCO_Recovery
+1.3 FootScuffLeft
+0.0 animmotion 0.0 0.0 0
+0.5 animmotion 0.0 0.0 0
+0.5166666666666667 animmotion 0.0 0.64 0
+0.5333333333333333 animmotion 0.0 2.22 0
+0.55 animmotion 0.0 4.26 0
+0.5666666666666667 animmotion 0.0 6.25 0
+0.5833333333333334 animmotion 0.0 7.79 0
+0.6 animmotion 0.0 8.87 0
+0.6166666666666667 animmotion 0.0 9.55 0
+0.6333333333333333 animmotion 0.0 9.92 0
+0.65 animmotion 0.0 10.07 0
+0.6666666666666666 animmotion 0.0 10.12 0
+0.6833333333333333 animmotion 0.0 10.24 0
+0.7 animmotion 0.0 10.56 0
+0.7166666666666667 animmotion 0.0 11.32 0
+0.7333333333333333 animmotion 0.0 12.37 0
+0.75 animmotion 0.0 13.3 0
+0.7666666666666667 animmotion 0.0 13.7 0

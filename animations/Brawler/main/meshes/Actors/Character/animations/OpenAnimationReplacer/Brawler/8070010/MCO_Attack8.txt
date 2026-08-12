@@ -1,0 +1,51 @@
+0.0 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.0 PIE.@SGVI|MCO_NextAttack|2
+0.0 PIE.@SGVI|MCO_NextPowerAttack|4
+0.06666666666666667 CastOKStart
+0.1 preHitFrame
+0.36666666666666664 SoundPlay.WPNUnarmedSwing
+0.36666666666666664 Collision_AttackStart
+0.4166666666666667 Collision_Add.Node(NPC R UpperArm [RUar])|ID(1)|Scale(3.0)
+0.4166666666666667 Collision_Add.Node(NPC R Forearm [RLar])|ID(1)|Scale(3.0)
+0.4166666666666667 Collision_Add.Node(NPC R Hand [RHnd])|ID(1)|Scale(3)|LengthMult(3)
+0.43333333333333335 HitFrame
+0.5 FootScuffRight
+0.5 Collision_AttackEnd
+0.6333333333333333 MCO_WinOpen
+0.6333333333333333 MCO_PowerWinOpen
+0.8333333333333334 FootScuffLeft
+0.9666666666666667 MCO_WinClose
+0.9666666666666667 MCO_PowerWinClose
+0.9666666666666667 MCO_Recovery
+0.0 animmotion 0.0 0.0 0
+0.016666666666666666 animmotion 0.0 0.0 0
+0.03333333333333333 animmotion 0.0 0.04 0
+0.05 animmotion 0.0 0.13 0
+0.06666666666666667 animmotion 0.0 0.31 0
+0.08333333333333333 animmotion 0.0 0.6 0
+0.1 animmotion 0.0 1.03 0
+0.11666666666666667 animmotion 0.0 1.64 0
+0.13333333333333333 animmotion 0.0 2.45 0
+0.15 animmotion 0.0 3.49 0
+0.16666666666666666 animmotion 0.0 4.79 0
+0.18333333333333332 animmotion 0.0 6.37 0
+0.2 animmotion 0.0 8.28 0
+0.21666666666666667 animmotion 0.0 10.52 0
+0.23333333333333334 animmotion 0.0 13.14 0
+0.25 animmotion 0.0 16.82 0
+0.26666666666666666 animmotion 0.0 19.29 0
+0.2833333333333333 animmotion 0.0 22.28 0
+0.3 animmotion 0.0 29.58 0
+0.31666666666666665 animmotion 0.0 33.46 0
+0.3333333333333333 animmotion 0.0 36.08 0
+0.35 animmotion 0.0 38.62 0
+0.36666666666666664 animmotion 0.0 41.06 0
+0.38333333333333336 animmotion 0.0 43.38 0
+0.4 animmotion 0.0 45.57 0
+0.4166666666666667 animmotion 0.0 47.56 0
+0.43333333333333335 animmotion 0.0 48.85 0
+0.45 animmotion 0.0 49.49 0
+0.4666666666666667 animmotion 0.0 49.92 0
+0.48333333333333334 animmotion 0.0 50.18 0
+0.5 animmotion 0.0 50.31 0
+0.5166666666666667 animmotion 0.0 50.36 0

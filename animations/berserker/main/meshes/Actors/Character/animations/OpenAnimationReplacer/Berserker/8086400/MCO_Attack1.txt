@@ -1,0 +1,26 @@
+# numOriginalFrames: 42
+# duration: 1.400000
+# numAnnotationTracks: 99
+# numAnnotations: 22
+0.060000 PIE.@SGVF|MCO_AttackSpeed|1
+0.060000 PIE.@SGVI|MCO_nextattack|2
+0.060000 PIE.@SGVI|MCO_nextpowerattack|2
+0.133333 preHitFrame
+0.400000 WeaponLeftSwing
+0.450000 HitFrame
+0.600000 MCO_WinOpen
+0.933333 MCO_WinClose
+0.600000 MCO_PowerWinOpen
+0.933333 MCO_PowerWinClose
+0.933333 MCO_Recovery
+1.400000 attackStop
+0.000000 animmotion 0 0.000 0
+0.066667 animmotion 0 0.000 0
+0.166667 animmotion 0 8.731 0
+0.233333 animmotion 0 14.585 0
+0.333333 animmotion 0 22.426 0
+0.366667 animmotion 0 24.043 0
+0.433333 animmotion 0 27.310 0
+0.466667 animmotion 0 31.122 0
+0.533333 animmotion 0 36.252 0
+0.600000 animmotion 0 38.124 0

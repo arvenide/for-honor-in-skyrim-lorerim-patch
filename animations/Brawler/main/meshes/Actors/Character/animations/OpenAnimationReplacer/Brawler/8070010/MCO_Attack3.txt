@@ -1,0 +1,71 @@
+# numOriginalFrames: 31
+# duration: 1.000000
+# numAnnotationTracks: 99
+# numAnnotations: 67
+0.000000 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.000000 PIE.@SGVI|MCO_NextAttack|4
+0.000000 PIE.@SGVI|MCO_NextPowerAttack|3
+0.066667 CastOKStart
+0.100000 preHitFrame
+0.100000 FootScuffLeft
+0.333333 FootScuffLeft
+0.333333 SoundPlay.WPNUnarmedSwing
+0.333333 Collision_AttackStart
+0.366667 Collision_Add.Node(NPC L UpperArm [LUar])|ID(1)|Scale(2.0)
+0.366667 Collision_Add.Node(NPC L Forearm [LLar])|ID(1)|Scale(2.0)
+0.366667 Collision_Add.Node(NPC L Hand [LHnd])|ID(1)|Scale(3)|LengthMult(3)
+0.400000 HitFrame
+0.466667 Collision_AttackEnd
+0.566667 FootScuffRight
+0.566667 MCO_WinOpen
+0.566667 MCO_PowerWinOpen
+0.900000 MCO_WinClose
+0.900000 MCO_PowerWinClose
+0.900000 MCO_Recovery
+0.000000 animmotion 0.0 0.0 0
+0.016667 animmotion 0.0 0.0 0
+0.033333 animmotion 0.0 0.03 0
+0.050000 animmotion 0.0 0.09 0
+0.066667 animmotion 0.0 0.21 0
+0.083333 animmotion 0.0 0.41 0
+0.100000 animmotion 0.0 0.71 0
+0.116667 animmotion 0.0 1.12 0
+0.133333 animmotion 0.0 1.68 0
+0.150000 animmotion 0.0 2.39 0
+0.166667 animmotion 0.0 3.27 0
+0.183333 animmotion 0.0 4.36 0
+0.200000 animmotion 0.0 5.66 0
+0.216667 animmotion 0.0 7.19 0
+0.233333 animmotion 0.0 8.98 0
+0.250000 animmotion 0.0 11.05 0
+0.266667 animmotion 0.0 13.41 0
+0.283333 animmotion 0.0 16.27 0
+0.300000 animmotion 0.0 19.52 0
+0.316667 animmotion 0.0 22.83 0
+0.333333 animmotion 0.0 26.25 0
+0.350000 animmotion 0.0 29.76 0
+0.366667 animmotion 0.0 33.27 0
+0.383333 animmotion 0.0 36.71 0
+0.400000 animmotion 0.0 39.98 0
+0.416667 animmotion 0.0 42.96 0
+0.433333 animmotion 0.0 45.34 0
+0.450000 animmotion 0.0 46.74 0
+0.466667 animmotion 0.0 47.37 0
+0.483333 animmotion 0.0 49.02 0
+0.500000 animmotion 0.0 51.44 0
+0.516667 animmotion 0.0 53.77 0
+0.533333 animmotion 0.0 55.46 0
+0.550000 animmotion 0.0 57.06 0
+0.566667 animmotion 0.0 58.76 0
+0.583333 animmotion 0.0 60.54 0
+0.600000 animmotion 0.0 62.4 0
+0.616667 animmotion 0.0 64.35 0
+0.633333 animmotion 0.0 66.35 0
+0.650000 animmotion 0.0 68.36 0
+0.666667 animmotion 0.0 70.31 0
+0.683333 animmotion 0.0 72.12 0
+0.700000 animmotion 0.0 73.73 0
+0.716667 animmotion 0.0 75.07 0
+0.733333 animmotion 0.0 76.07 0
+0.750000 animmotion 0.0 76.66 0
+0.766667 animmotion 0.0 76.82 0

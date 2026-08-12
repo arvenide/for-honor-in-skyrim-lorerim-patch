@@ -1,0 +1,36 @@
+0.06 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.06 PIE.@SGVI|MCO_NextAttack|2
+0.06 PIE.@SGVI|MCO_NextPowerAttack|7
+0.0 SoundPlay.FHPSound
+0.0 PIE.$FHFX_Foot_R
+0.06666666666666667 CastOKStart
+0.1 preHitFrame
+0.7166666666666667 PIE.$FMelee_Dust
+0.8 Collision_AttackStart
+0.85 Collision_Add.Node(NPC R Thigh [RThg])|ID(1)|Scale(1.0)
+0.85 Collision_Add.Node(NPC R Calf [RClf])|ID(1)|Scale(1.0)
+0.85 Collision_Add.Node(NPC R Foot [Rft ])|ID(1)|Scale(3.0)|RadiusMult(2)
+0.85 PIE.$Fist_Hit
+0.85 PIE.$HitPushX2_Trigger
+0.85 PIE.@CAMSHAKE|0.5|0.5
+0.85 HitFrame
+0.8833333333333333 Collision_AttackEnd
+1.2 FootScuffRight
+1.2666666666666666 MCO_WinOpen
+1.2666666666666666 MCO_PowerWinOpen
+1.6 MCO_WinClose
+1.6 MCO_PowerWinClose
+1.6 MCO_Recovery
+0.0 animmotion 0.0 0.0 0
+0.7333333333333333 animmotion 0.0 0.0 0
+0.75 animmotion 0.0 0.47 0
+0.7666666666666667 animmotion 0.0 1.74 0
+0.7833333333333333 animmotion 0.0 3.65 0
+0.8 animmotion 0.0 6.01 0
+0.8166666666666667 animmotion 0.0 8.64 0
+0.8333333333333334 animmotion 0.0 11.36 0
+0.85 animmotion 0.0 13.99 0
+0.8666666666666667 animmotion 0.0 16.35 0
+0.8833333333333333 animmotion 0.0 18.26 0
+0.9 animmotion 0.0 19.53 0
+0.9166666666666666 animmotion 0.0 20.0 0

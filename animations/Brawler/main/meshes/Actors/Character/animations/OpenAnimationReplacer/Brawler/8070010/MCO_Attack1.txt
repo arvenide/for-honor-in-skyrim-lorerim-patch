@@ -1,0 +1,49 @@
+# numOriginalFrames: 29
+# duration: 0.933333
+# numAnnotationTracks: 99
+# numAnnotations: 45
+0.060000 PIE.@SGVF|MCO_AttackSpeed|1.0
+0.060000 PIE.@SGVI|MCO_NextAttack|2
+0.060000 PIE.@SGVI|MCO_NextPowerAttack|4
+0.066667 CastOKStart
+0.100000 preHitFrame
+0.266667 SoundPlay.WPNUnarmedSwing
+0.266667 Collision_AttackStart
+0.300000 Collision_Add.Node(NPC R UpperArm [RUar])|ID(1)|Scale(2.0)
+0.300000 Collision_Add.Node(NPC R Forearm [RLar])|ID(1)|Scale(2.0)
+0.300000 Collision_Add.Node(NPC R Hand [RHnd])|ID(1)|Scale(3)|LengthMult(3)
+0.333333 HitFrame
+0.400000 FootScuffRight
+0.400000 Collision_AttackEnd
+0.533333 MCO_WinOpen
+0.533333 MCO_PowerWinOpen
+0.866667 MCO_WinClose
+0.866667 MCO_PowerWinClose
+0.866667 MCO_Recovery
+0.000000 animmotion 0.0 0.0 0
+0.016667 animmotion 0.0 0.14 0
+0.033333 animmotion 0.0 0.59 0
+0.050000 animmotion 0.0 1.42 0
+0.066667 animmotion 0.0 2.67 0
+0.083333 animmotion 0.0 4.41 0
+0.100000 animmotion 0.0 6.7 0
+0.116667 animmotion 0.0 9.59 0
+0.133333 animmotion 0.0 13.14 0
+0.150000 animmotion 0.0 16.82 0
+0.166667 animmotion 0.0 19.29 0
+0.183333 animmotion 0.0 23.16 0
+0.200000 animmotion 0.0 26.95 0
+0.216667 animmotion 0.0 29.6 0
+0.233333 animmotion 0.0 31.16 0
+0.250000 animmotion 0.0 31.95 0
+0.266667 animmotion 0.0 32.35 0
+0.283333 animmotion 0.0 32.7 0
+0.300000 animmotion 0.0 33.26 0
+0.316667 animmotion 0.0 33.85 0
+0.333333 animmotion 0.0 34.38 0
+0.350000 animmotion 0.0 34.84 0
+0.366667 animmotion 0.0 35.21 0
+0.383333 animmotion 0.0 35.51 0
+0.400000 animmotion 0.0 35.72 0
+0.416667 animmotion 0.0 35.85 0
+0.433333 animmotion 0.0 35.89 0
